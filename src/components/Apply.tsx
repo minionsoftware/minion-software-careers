@@ -1,6 +1,8 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Send, Github, Mail, User, FileText, Clock } from "lucide-react";
+import discordLogo from "../assets/discordlogo.webp";
+
 
 const Apply = () => {
   const steps = [
@@ -82,11 +84,6 @@ const Apply = () => {
             
             <div className="space-y-6">
               <div>
-                <h4 className="font-semibold text-foreground mb-2">Email Address</h4>
-                <p className="text-primary font-medium text-lg">lior@apartium.net</p>
-              </div>
-              
-              <div>
                 <h4 className="font-semibold text-foreground mb-2">What to Include</h4>
                 <ul className="text-sm text-muted-foreground space-y-1">
                   <li>• GitHub or portfolio link</li>
@@ -106,9 +103,13 @@ const Apply = () => {
                 variant="cta" 
                 size="lg" 
                 className="w-full"
-                onClick={() => window.open('mailto:lior@apartium.net?subject=Application to Minion Software', '_blank')}
+                onClick={() => window.open('https://discord.gg/AqE4Q9tfAx', '_blank')}
               >
-                <Mail className="mr-2 h-5 w-5" />
+                <img
+                    src={discordLogo}
+                    alt="Discord Logo"
+                    className="ml-2 h-5 w-auto"
+                />
                 Send Application
               </Button>
             </div>

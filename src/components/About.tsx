@@ -1,5 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Building2, Target, Users2 } from "lucide-react";
+import logo from "../assets/APLogo.png";
+
 
 const About = () => {
   return (
@@ -9,7 +11,14 @@ const About = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
             About <span className="text-primary">Minion Software</span>
           </h2>
-          <p className="text-xl text-muted-foreground mb-8">
+          <p className="text-xl text-muted-foreground mb-8 flex items-center justify-center gap-2">
+            <img
+                src={logo}
+                alt="Minion Software Logo"
+                className="h-10 w-auto object-contain"
+                loading="eager"
+                decoding="async"
+            />
             Part of Apartium Development
           </p>
         </div>
@@ -80,12 +89,12 @@ const About = () => {
 
             <div className="grid grid-cols-2 gap-4">
               <div className="bg-card p-6 rounded-lg border border-border/50 text-center">
-                <div className="text-3xl font-bold text-primary mb-2">50+</div>
-                <div className="text-sm text-muted-foreground">Active Developers</div>
+                <div className="text-3xl font-bold text-primary mb-2">4,000+</div>
+                <div className="text-sm text-muted-foreground">Successful CI runs</div>
               </div>
               <div className="bg-card p-6 rounded-lg border border-border/50 text-center">
-                <div className="text-3xl font-bold text-primary mb-2">20+</div>
-                <div className="text-sm text-muted-foreground">Projects Completed</div>
+                <div className="text-3xl font-bold text-primary mb-2">90%</div>
+                <div className="text-sm text-muted-foreground">Code Coverage</div>
               </div>
             </div>
           </div>

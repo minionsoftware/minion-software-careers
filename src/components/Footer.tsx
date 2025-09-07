@@ -1,4 +1,6 @@
-import { Mail, Github, ExternalLink } from "lucide-react";
+import {Mail, Github, ExternalLink, Phone} from "lucide-react";
+import logo from "../assets/MillennialSoftwaresLogo.png";
+
 
 const Footer = () => {
   const scrollToSection = (sectionId: string) => {
@@ -15,8 +17,14 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-accent-gradient rounded-lg flex items-center justify-center">
-                <span className="text-accent-foreground font-bold text-sm">MS</span>
+              <div className="w-8 h-8 rounded-lg flex items-center justify-center">
+                <img
+                    src={logo}
+                    alt="Minion Software Logo"
+                    className="h-full w-full object-contain"
+                    loading="eager"
+                    decoding="async"
+                />
               </div>
               <span className="text-lg font-bold text-foreground">Minion Software</span>
             </div>
@@ -72,7 +80,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="mailto:lior@apartium.net"
+                  href="https://discord.gg/AqE4Q9tfAx"
                   className="text-sm text-muted-foreground hover:text-primary transition-smooth"
                 >
                   Send Application
@@ -86,21 +94,21 @@ const Footer = () => {
             <h4 className="font-semibold text-foreground mb-4">Contact</h4>
             <div className="space-y-3">
               <a
-                href="mailto:lior@apartium.net"
+                href="https://discord.gg/AqE4Q9tfAx" target="_blank" rel="noreferrer"
                 className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-smooth"
               >
-                <Mail className="h-4 w-4" />
-                lior@apartium.net
+                <Phone className="h-4 w-4" />
+                Join our Discord
               </a>
               <a
-                href="#"
+                href="https://github.com/PoweredByApartium" target="_blank" rel="noreferrer"
                 className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-smooth"
               >
                 <Github className="h-4 w-4" />
                 GitHub Organization
               </a>
               <a
-                href="#"
+                href="https://apartium.net/" target="_blank" rel="noreferrer"
                 className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-smooth"
               >
                 <ExternalLink className="h-4 w-4" />
@@ -113,7 +121,17 @@ const Footer = () => {
         <div className="border-t border-border mt-8 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground">
             © 2024 Minion Software. Part of Apartium Development. All rights reserved.
+            <br />
+            Designed by{" "}
+            <a
+                href="https://elays.design"
+                target="_blank"
+                className="text-blue-500 hover:text-blue-600 transition-colors"
+            >
+              Elay Sasy
+            </a>
           </p>
+
           <div className="flex items-center gap-4">
             <a
               href="#"
