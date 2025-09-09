@@ -2,7 +2,7 @@
   "files": [],
   "references": [{ "path": "./tsconfig.app.json" }, { "path": "./tsconfig.node.json" }],
   "compilerOptions": {
-    "baseUrl": "minion-software-careers",
+    "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
     },
