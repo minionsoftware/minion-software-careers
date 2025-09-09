@@ -39,7 +39,7 @@ jobs:
         run: npm run build
 
       - name: Add CNAME file
-        run: echo "careers.minion-software.com" > dist/CNAME
+        run: echo "minionsoftware.dev" > dist/CNAME
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
