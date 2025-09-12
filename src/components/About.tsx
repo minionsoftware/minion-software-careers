@@ -76,14 +76,10 @@ const About = () => {
             <div className="bg-card-gradient p-8 rounded-xl border border-border/50 shadow-elegant">
               <h3 className="text-2xl font-bold text-foreground mb-4">Why We Exist</h3>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                In today's fast-paced tech industry, finding the right balance between 
-                learning and practical experience can be challenging. We bridge that gap 
-                by offering real-world opportunities in a supportive environment.
+                Our goal is not just making things that work - but asking ourselves two questions. The first, how they work? Why? The answer to this question is the difference between mediocrity and perfection. The second and perhaps the most important question is how can we make our code better? How to get to a path of constant improvement.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Whether you're just starting your development journey or looking to expand 
-                your skills, Minion Software provides the platform and community you need 
-                to succeed.
+                Our goal is not just making things that work - but asking ourselves two questions. The first, how they work? Why? The answer to this question is the difference between mediocrity and perfection. The second and perhaps the most important question is how can we make our code better? How to get to a path of constant improvement.
               </p>
             </div>
 

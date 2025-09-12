@@ -55,7 +55,7 @@ const Services = () => {
             What We <span className="text-primary">Offer</span>
           </h2>
           <p className="text-xl text-muted-foreground">
-            Multiple pathways to grow your development career
+            Multiple pathways to grow your development skills
           </p>
         </div>
 

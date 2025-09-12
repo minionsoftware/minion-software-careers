@@ -43,7 +43,7 @@ const Header = () => {
             </div>
 
             {/* Desktop Navigation */}
-            <nav className="hidden md:flex items-center gap-8">
+            <nav className="hidden md:flex font-semibold items-center gap-12">
               {navItems.map((item) => (
                   <button
                       key={item.id}
